@@ -34,6 +34,10 @@ let edad3=15
 let MayorOMenor3 =edad3 >18? "true":"false";
 console.log(MayorOMenor3)
 
+let numero = parseFloat("500.60"); 
+let resultado = numero + 100;      
+console.log(resultado);    
+
 let numeroCuatro ="500";
 let segundoNumero=100;
 let sumar =Number(numeroCuatro)+segundoNumero
@@ -44,6 +48,12 @@ let edad4 =25;
 console.log(`la edad de chantal es ${edad4.toString()}`)
 console.log(typeof edad4);
 console.log(typeof edad4.toString());
+
+
+
+
+
+
 
 let promedio=8
 let edadAlumno=15;
